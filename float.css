@@ -1,0 +1,32 @@
+/*2カラムレイアウトをfloat:left;を使って行う*/
+#panel2 .content {
+    width: 70%;
+    float: left;
+}
+
+#panel2 .sidebar {
+    overflow: hidden;
+}
+
+#panel2 .footer{
+    clear:both;
+}
+
+/*3カラムレイアウトをfloat:left;を使って行う*/
+#panel3 .sidebar1 {
+    width: 20%;
+    float: left;
+}
+
+#panel3 .content {
+    width: 60%;
+    float: left;
+}
+
+#panel3 .sidebar2 {
+    overflow: hidden;
+}
+
+#panel3 .footer{
+    clear:both;
+}
