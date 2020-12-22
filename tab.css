@@ -38,14 +38,17 @@ input[type="radio"] {
 
 #panel1{
     background-color: #ffbbcc;
+    text-align: center;
 }
 
 #panel2{
     background-color: #efe294;
+    text-align: center;
 }
 
 #panel3{
     background-color: #a9c9ff;
+    text-align: center;
 }
 
 .tab_area label:hover {
@@ -61,7 +64,6 @@ input[type="radio"] {
 .tab_panel p {
     font-size: 14px;
     letter-spacing: 1px;
-    text-align: center;
 }
 
 #tab1:checked ~ .tab_area .tab1_label {
@@ -88,5 +90,14 @@ input[type="radio"] {
 }
 
 #tab3:checked ~ .panel_area #panel3 {
+    display: block;
+}
+
+#tab4:checked ~ .tab_area .tab4_label {
+    background:  #fff;
+    color: #000;
+}
+
+#tab4:checked ~ .panel_area #panel4 {
     display: block;
 }

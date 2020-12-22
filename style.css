@@ -8,13 +8,13 @@
     margin: 0 auto;
 }
 
-h2{
+h2 {
     color: #7d5555;
     font-weight: 100;
     padding: 20px 0px;
 }
 
-p{
+p {
     color: #7d5555;
     padding: 20px;
 }
@@ -24,32 +24,36 @@ p{
     padding: 30px;
 }
 
-.header{
+.header {
     background-color: #a6faff;
     margin: 10px 0px;
 }
 
-.navigation{
+.navigation {
     background-color: #ffe28d;
     margin: 10px 0px;
 }
 
-.content{
+.content {
     background-color: #f7ffaa;
     height: 200px;
-    margin-right:10px;
+    margin-right: 10px;
 }
 
-.sidebar{
+.sidebar {
     background-color: #98ffc6;
     height: 200px;
 }
 
-.sidebar1{
+.sidebar1 {
     margin-right: 10px;
 }
 
-.footer{
+.footer {
     background-color: #acff83;
     margin: 10px 0px;
+}
+
+.explanation {
+    margin-bottom: 50px;
 }

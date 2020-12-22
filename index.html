@@ -14,21 +14,31 @@
         <input id="tab1" type="radio" name="tab_btn" checked>
         <input id="tab2" type="radio" name="tab_btn">
         <input id="tab3" type="radio" name="tab_btn">
+        <input id="tab4" type="radio" name="tab_btn">
 
         <div class="tab_area">
-            <label class="tab1_label" for="tab1">tab1</label>
-            <label class="tab2_label" for="tab2">tab2</label>
-            <label class="tab3_label" for="tab3">tab3</label>
+            <label class="tab1_label" for="tab1">1column</label>
+            <label class="tab2_label" for="tab2">2column</label>
+            <label class="tab3_label" for="tab3">3column</label>
+            <label class="tab4_label" for="tab4">解説</label>
         </div>
         <div class="panel_area">
             <div id="panel1" class="tab_panel">
                 <div class="wrapper">
                     <h2>シングルカラムレイアウト</h2>
                     <div class="rayout">
-                        <div class="header"><p>ヘッダー</p></div>
-                        <div class="navigation"><p>ナビゲーション</p></div>
-                        <div class="content"><p>コンテンツ</p></div>
-                        <div class="footer"><p>フッター</p></div>
+                        <div class="header">
+                            <p>ヘッダー</p>
+                        </div>
+                        <div class="navigation">
+                            <p>ナビゲーション</p>
+                        </div>
+                        <div class="content">
+                            <p>コンテンツ</p>
+                        </div>
+                        <div class="footer">
+                            <p>フッター</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -36,11 +46,21 @@
                 <div class="wrapper">
                     <h2>2カラムレイアウト</h2>
                     <div class="rayout">
-                        <div class="header"><p>ヘッダー</p></div>
-                        <div class="navigation"><p>ナビゲーション</p></div>
-                        <div class="content"><p>コンテンツ</p></div>
-                        <div class="sidebar"><p>サイドバー</p></div>
-                        <div class="footer"><p>フッター</p></div>
+                        <div class="header">
+                            <p>ヘッダー</p>
+                        </div>
+                        <div class="navigation">
+                            <p>ナビゲーション</p>
+                        </div>
+                        <div class="content">
+                            <p>コンテンツ</p>
+                        </div>
+                        <div class="sidebar">
+                            <p>サイドバー</p>
+                        </div>
+                        <div class="footer">
+                            <p>フッター</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -48,16 +68,45 @@
                 <div class="wrapper">
                     <h2>3カラムレイアウト</h2>
                     <div class="rayout">
-                        <div class="header"><p>ヘッダー</p></div>
-                        <div class="navigation"><p>ナビゲーション</p></div>
-                        <div class="sidebar sidebar1"><p>サイドバー</p></div>
-                        <div class="content"><p>コンテンツ</p></div>
-                        <div class="sidebar sidebar2"><p>サイドバー</p></div>
-                        <div class="footer"><p>フッター</p></div>
+                        <div class="header">
+                            <p>ヘッダー</p>
+                        </div>
+                        <div class="navigation">
+                            <p>ナビゲーション</p>
+                        </div>
+                        <div class="sidebar sidebar1">
+                            <p>サイドバー</p>
+                        </div>
+                        <div class="content">
+                            <p>コンテンツ</p>
+                        </div>
+                        <div class="sidebar sidebar2">
+                            <p>サイドバー</p>
+                        </div>
+                        <div class="footer">
+                            <p>フッター</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="panel4" class="tab_panel">
+                <div class="wrapper">
+                   <div class="explanation">
+                    <h2>2カラムレイアウトのとき</h2>
+                    <hr>
+                    <p>contentにfloat:left;をかけてsidebarにoverflow:hidden;を書いてます。<br>contentの幅だけ指定しています。footerにはclear:both;をかけています。</p>
+                    </div>
+                    <div class="explanation">
+                    <h2>3カラムレイアウトのとき</h2>
+                    <hr>
+                    <p>左のsidebarとcontentにfloat:left;をかけて右のsidebarにoverflow:hidden;を書いてます。<br>左のsidebarとcontentの幅を指定しています。footerにはclear:both;をかけています。</p>
+                    </div>
+                    <div class="explanation">
+                    <a href="https://github.com/6kimaguregirl/column_rayout">コードを見たいときはこちら！！</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 </body></html>
